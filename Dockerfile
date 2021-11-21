@@ -9,7 +9,7 @@ COPY requirements.txt .
 COPY app.py .
 COPY nginx.conf .
 
-RUN pip freeze > requirements.txt
+RUN pip install -r requirements.txt
 
 EXPOSE 5000
  
