@@ -9,7 +9,7 @@ env:
   ECR_REPOSITORY: atakanecr   
   ECS_SERVICE: atakanservice
   ECS_CLUSTER: atakancluster
-  ECS_TASK_DEFINITION: .ecs/first-run-task-definition:1.json
+  ECS_TASK_DEFINITION: .aws/first-run-task-definition:1.json
   CONTAINER_NAME: nginx
                                              
 jobs:
