@@ -8,7 +8,7 @@ WORKDIR /app
 COPY requirements.txt .
 COPY app.py .
 COPY nginx.conf .
-ADD templates/index.html .
+ADD templates .
 
 RUN pip install -r requirements.txt
 
