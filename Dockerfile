@@ -7,6 +7,7 @@ WORKDIR /app
 
 COPY requirements.txt .
 COPY app.py .
+COPY nginx.conf .
 
 RUN pip freeze > requirements.txt
 
