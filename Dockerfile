@@ -8,6 +8,7 @@ WORKDIR /app
 COPY requirements.txt .
 COPY app.py .
 COPY nginx.conf .
+COPY index.html
 
 RUN pip install -r requirements.txt
 
