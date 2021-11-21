@@ -1,7 +1,7 @@
 FROM python:3.6-alpine
 
 LABEL maintainer="Atakan Ciftci"
-LABEL maintainer.mail=hatakanciftci@gmail.com"
+LABEL maintainer.mail="hatakanciftci@gmail.com"
 
 WORKDIR /app
 
